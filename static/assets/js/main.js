@@ -226,28 +226,3 @@ if (window.self === window.top && location.pathname !== '/view') window.onscroll
 }
 
 if (window.self !== window.top && document.querySelector('.navbar')) document.querySelector('.navbar').remove();
-
-
-
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB61VFcMagwK5TbDdP_WhTtQKajHAi3Cko",
-  authDomain: "epic-school-center.firebaseapp.com",
-  projectId: "epic-school-center",
-  storageBucket: "epic-school-center.appspot.com",
-  messagingSenderId: "62320052161",
-  appId: "1:62320052161:web:76021b7ebb173afe4c9140",
-  measurementId: "G-BMJTL66XVV"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
