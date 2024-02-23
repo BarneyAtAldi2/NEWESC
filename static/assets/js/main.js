@@ -225,4 +225,5 @@ if (window.self === window.top && location.pathname !== '/view') window.onscroll
     else document.querySelector('.navbar').classList.remove('scrolling');
 }
 
+
 if (window.self !== window.top && document.querySelector('.navbar')) document.querySelector('.navbar').remove();
