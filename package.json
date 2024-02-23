@@ -16,6 +16,7 @@
         "cors": "*",
         "easyviolet": "github:Russell2259/Easyviolet",
         "express": "*",
+        "firebase": "^10.8.0",
         "html-minifier": "^4.0.0",
         "javascript-obfuscator": "^4.1.0",
         "jsdom": "^23.0.1",

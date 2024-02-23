@@ -3,7 +3,7 @@
 .gamebar {
     background: var(--background-darker);
     z-index: 9;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -12,7 +12,7 @@
     margin-right: 20vw;
     border-radius: 2vh;
     padding: 10px;
-    display: flex;
+    display: grid;
     box-shadow: 0vh 0.75vh 1.5vh 0vh var(--shadow-color);
     backdrop-filter: blur(7.1px);
     -webkit-backdrop-filter: blur(7.1px);
@@ -47,7 +47,7 @@
     background: var(--shadow-color);
     cursor: pointer;
     box-shadow: 0vh 0.75vh 1.5vh 0vh var(--shadow-color);
-    font-size: 35px;
+    font-size: 22px;
     border-radius: 1vh;
     padding: 5px;
 }

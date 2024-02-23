@@ -36,15 +36,16 @@
 }
 
 .navbar>.title>img {
-    width: 6vh;
-    border-radius: 1vh;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 3vh;
 }
 
 .navbar>.title>span {
     font-family: 'Lato-Black';
     font-size: 3vh;
-    left: 11vh;
-    position: absolute;
+    left: 22vh;
+    position: fixed;
     text-align: left;
 }
 

@@ -81,8 +81,8 @@ footer .title:not(:last-child) {
 }
 
 footer .title img {
-    width: 40px;
-    height: 40px;
+    width: 125px;
+    height: 50px;
     margin-left: 10px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.616));
     border-radius: 1vh;
